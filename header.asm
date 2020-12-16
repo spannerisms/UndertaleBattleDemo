@@ -15,7 +15,7 @@ db "Undertale Battle Demo"
 
 db $31 ; rom map
 db $02 ; rom type, rom, ram, sram
-db $07 ; rom size
+db $06 ; rom size
 db $00 ; sram size
 db $01 ; ntsc
 db $33 ; use $FFB0 for header

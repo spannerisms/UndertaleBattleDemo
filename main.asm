@@ -25,6 +25,9 @@ incsrc "enemyattacks.asm"
 
 print "Code: ", bytes
 
+org $81FFFF
+db 0
+
 org $818000
 BattleHUD:
 incbin "battle.2bpp"
